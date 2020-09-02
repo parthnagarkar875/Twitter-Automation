@@ -11,3 +11,9 @@ The last link has finally been followed by me. It uses APScheduler.
 At the end, I enabled the WORKER dyno.
 
 Also, I defined the Twitter API keys in environment variables of Heroku.
+
+
+
+At the end, heroku didn't work because of dyno sleeping. 
+
+So uploaded on AWS Elastic Beanstalk instead. 
