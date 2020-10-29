@@ -31,7 +31,7 @@ def tweet_quote():
 
 #Initializing the scheduler. 
 sched = BackgroundScheduler(daemon=True)
-sched.add_job(tweet_quote,'interval', hours=3)
+sched.add_job(tweet_quote,'interval', hours=5)
 sched.start()
 
 app = Flask(__name__)
