@@ -28,7 +28,7 @@ def tweet_quote():
     sheet.delete_row(1)                       
 
 sched = BackgroundScheduler(daemon=True)
-sched.add_job(tweet_quote,'interval', hours=3)
+sched.add_job(tweet_quote,'interval', hours=5)
 sched.start()
 
 application = app = Flask(__name__)
